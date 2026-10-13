@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+ENV/
+
+# Installer / Packaging
+*.exe
+*.msi
+*.dmg
+*.spec
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# App-Laufzeit (lokal, nicht versionieren)
+*.bak
+*.tmp
+*.log
+
+# OS
+desktop.ini

@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "template": "Terminal",
+  "settings": {
+    "primary_color": "#FFB454",
+    "secondary_color": "#8C8472",
+    "accent_color": "#FFB454",
+    "font": "JetBrains Mono",
+    "font_size": 9,
+    "line_spacing": 1.35,
+    "section_spacing": 6,
+    "margin_left": 18,
+    "margin_right": 18,
+    "margin_top": 16,
+    "margin_bottom": 16,
+    "icons_enabled": false,
+    "show_photo_border": true,
+    "include_cover_letter": false,
+    "include_certificates_appendix": true
+  },
+  "personal": {
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "title": "Fachinformatiker/in Systemintegration · Azubi im 3. Lehrjahr",
+    "address": "Musterweg 7",
+    "postal_code": "12345",
+    "city": "Musterstadt",
+    "country": "Deutschland",
+    "phone": "+49 170 0000000",
+    "email": "vorname.nachname@mail.de",
+    "linkedin": "",
+    "website": "",
+    "github": "github.com/dein-name",
+    "birth_date": "",
+    "birth_place": "",
+    "nationality": "",
+    "photo": ""
+  },
+  "cover_letter": {
+    "enabled": false,
+    "sender_extra": "",
+    "recipient_company": "",
+    "recipient_contact": "",
+    "recipient_street": "",
+    "recipient_postal_city": "",
+    "city": "Musterstadt",
+    "date": "",
+    "city_date": "",
+    "subject": "Bewerbung um Übernahme als Fachinformatiker für Systemintegration",
+    "salutation": "Sehr geehrte Damen und Herren,",
+    "body": "hiermit bewerbe ich mich um die Übernahme nach meiner Ausbildung zum Fachinformatiker für Systemintegration.\n\nWährend meiner Ausbildung habe ich Clients, Server und Netzwerkkomponenten eingerichtet, Active Directory mit Gruppenrichtlinien verwaltet und den 1st/2nd-Level-Support im Ticketsystem übernommen.\n\nGern stelle ich mich Ihnen in einem persönlichen Gespräch vor.",
+    "closing": "Mit freundlichen Grüßen",
+    "enclosures": "Lebenslauf, Zeugnisse"
+  },
+  "sections": [
+    {
+      "type": "profil",
+      "title": "Profil",
+      "data": {
+        "content": "Auszubildende/r bei Muster IT GmbH. Schwerpunkte: Client- und Server-Infrastruktur, Netzwerkadministration, strukturierter Support. Stärke: ruhige, systematische Fehleranalyse auch unter Zeitdruck. Gesucht: Übernahme ab August 2026."
+      }
+    },
+    {
+      "type": "berufserfahrung",
+      "title": "Berufserfahrung",
+      "data": {
+        "entries": [
+          {
+            "position": "Ausbildung Fachinformatiker/in Systemintegration",
+            "company": "Muster IT GmbH",
+            "location": "Musterstadt",
+            "start_date": "08/2023",
+            "end_date": "",
+            "current_position": true,
+            "description": "",
+            "achievements": [
+              "Clients, Server und Netzwerkkomponenten einrichten",
+              "Active Directory, Gruppenrichtlinien, Rechteverwaltung",
+              "1st/2nd-Level-Support im Ticketsystem OTRS"
+            ]
+          },
+          {
+            "position": "Praktikum IT-Support",
+            "company": "Stadtwerke Musterstadt",
+            "location": "Musterstadt",
+            "start_date": "02/2023",
+            "end_date": "04/2023",
+            "current_position": false,
+            "description": "",
+            "achievements": [
+              "Rollout von 40 Windows-11-Arbeitsplätzen begleitet"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ausbildung",
+      "title": "Ausbildung",
+      "data": {
+        "entries": [
+          {
+            "degree": "Mittlere Reife",
+            "institution": "Realschule Musterstadt",
+            "location": "Musterstadt",
+            "start_date": "2017",
+            "end_date": "2023",
+            "grade": "2,1",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "kenntnisse",
+      "title": "Kenntnisse",
+      "data": {
+        "skills": [
+          { "name": "Windows Server", "category": "systeme", "level": "80 %" },
+          { "name": "Active Directory", "category": "systeme", "level": "" },
+          { "name": "Linux", "category": "systeme", "level": "70 %" },
+          { "name": "Hyper-V", "category": "systeme", "level": "" },
+          { "name": "Proxmox", "category": "systeme", "level": "" },
+          { "name": "Microsoft 365", "category": "systeme", "level": "" },
+          { "name": "TCP/IP", "category": "netzwerk", "level": "" },
+          { "name": "VLAN", "category": "netzwerk", "level": "" },
+          { "name": "DNS/DHCP", "category": "netzwerk", "level": "" },
+          { "name": "VPN", "category": "netzwerk", "level": "75 %" },
+          { "name": "PowerShell", "category": "betrieb", "level": "60 %" },
+          { "name": "Bash", "category": "betrieb", "level": "" },
+          { "name": "Git", "category": "betrieb", "level": "" },
+          { "name": "Zabbix", "category": "betrieb", "level": "" },
+          { "name": "Backup", "category": "betrieb", "level": "" },
+          { "name": "Ticketing", "category": "betrieb", "level": "" }
+        ]
+      }
+    },
+    {
+      "type": "zertifikate",
+      "title": "Zertifikate",
+      "data": {
+        "entries": [
+          {
+            "name": "IHK Abschlussprüfung FiSi",
+            "issuer": "",
+            "year": "geplant 2026",
+            "description": "",
+            "file_path": ""
+          },
+          {
+            "name": "CompTIA Network+",
+            "issuer": "CompTIA",
+            "year": "2025",
+            "description": "",
+            "file_path": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "sprachen",
+      "title": "Sprachen",
+      "data": {
+        "languages": [
+          { "name": "Deutsch", "level": "Muttersprache" },
+          { "name": "Englisch", "level": "B2" }
+        ]
+      }
+    }
+  ]
+}

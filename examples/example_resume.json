@@ -1,0 +1,213 @@
+{
+  "version": 2,
+  "template": "ZH Modern",
+  "settings": {
+    "primary_color": "#FF2D95",
+    "secondary_color": "#1F1F1F",
+    "accent_color": "#2A2A2A",
+    "font": "Helvetica",
+    "font_size": 10,
+    "line_spacing": 1.2,
+    "section_spacing": 8,
+    "margin_left": 18,
+    "margin_right": 18,
+    "margin_top": 16,
+    "margin_bottom": 16,
+    "icons_enabled": true,
+    "show_photo_border": true,
+    "include_cover_letter": true,
+    "include_certificates_appendix": true
+  },
+  "personal": {
+    "first_name": "Max",
+    "last_name": "Mustermann",
+    "title": "Senior Softwareentwickler",
+    "address": "Musterstraße 12",
+    "postal_code": "10115",
+    "city": "Berlin",
+    "country": "Deutschland",
+    "phone": "+49 170 1234567",
+    "email": "max.mustermann@beispiel.de",
+    "linkedin": "linkedin.com/in/maxmustermann",
+    "website": "maxmustermann.de",
+    "github": "github.com/maxmustermann",
+    "birth_date": "",
+    "birth_place": "",
+    "nationality": "",
+    "photo": ""
+  },
+  "cover_letter": {
+    "enabled": true,
+    "sender_extra": "",
+    "recipient_company": "Technik Solutions GmbH",
+    "recipient_contact": "Frau Julia Schneider\nPersonalabteilung",
+    "recipient_street": "Friedrichstraße 123",
+    "recipient_postal_city": "10117 Berlin",
+    "city": "Berlin",
+    "date": "2026-08-25",
+    "city_date": "",
+    "subject": "Bewerbung als Senior Softwareentwickler (m/w/d) – Kennziffer 2026-042 – Ihre Anzeige vom 10. August 2026 auf StepStone",
+    "salutation": "Sehr geehrte Frau Schneider,",
+    "body": "mit großem Interesse habe ich Ihre Ausschreibung für die Position als Senior Softwareentwickler gelesen. Als erfahrener Softwareentwickler mit über acht Jahren Berufserfahrung in der Entwicklung skalierbarer, cloudbasierter Systeme möchte ich Ihr Team mit meiner Expertise in Python, Kubernetes und agiler Softwareentwicklung verstärken.\n\nIn meiner aktuellen Tätigkeit bei der Technik Solutions GmbH verantworte ich die Architektur einer B2B-Plattform mit über 50.000 aktiven Nutzern. Dabei leite ich ein Team von fünf Entwicklern, konnte die Deployment-Zeit durch den Aufbau einer CI/CD-Pipeline um 40 % reduzieren und führte Observability-Standards (Monitoring & Tracing) ein, die die Systemstabilität deutlich erhöht haben. Zuvor automatisierte ich bei der Digitalwerke AG manuelle Prozesse im Rechnungswesen und reduzierte die Bearbeitungszeit um 30 %.\n\nIhr Unternehmen überzeugt mich besonders durch den Fokus auf moderne Cloud-Architekturen und die enge Verzahnung von Entwicklung und Produkt. Meine Kenntnisse in Python, TypeScript, Docker/Kubernetes sowie meine Erfahrung in der fachlichen Teamleitung passen exakt zum beschriebenen Anforderungsprofil. Die von Ihnen erwartete eigenverantwortliche Arbeitsweise und Kommunikationsstärke bringe ich durch meine bisherige Schnittstellenfunktion zwischen Fachbereich, Entwicklung und Betrieb mit.\n\nGern stelle ich mich Ihnen in einem persönlichen Gespräch vor und freue mich darauf, mehr über die Position und Ihr Team zu erfahren. Für Rückfragen stehe ich jederzeit zur Verfügung. Mein frühestmöglicher Eintritt ist der 01.11.2026, meine Gehaltsvorstellung liegt bei 78.000 € brutto p. a.",
+    "closing": "Mit freundlichen Grüßen",
+    "enclosures": "Lebenslauf, Zeugnisse, Zertifikate"
+  },
+  "sections": [
+    {
+      "type": "profil",
+      "title": "Profil",
+      "data": {
+        "content": "Erfahrener Softwareentwickler mit über 8 Jahren Berufserfahrung in der Entwicklung skalierbarer Webanwendungen und cloudbasierter Systeme. Spezialisiert auf Python, Cloud-Architekturen und agile Teamarbeit. Nachweisbare Erfolge in der Reduzierung von Betriebskosten und der Verbesserung der Deployment-Geschwindigkeit."
+      }
+    },
+    {
+      "type": "berufserfahrung",
+      "title": "Berufserfahrung",
+      "data": {
+        "entries": [
+          {
+            "position": "Senior Softwareentwickler",
+            "company": "Technik Solutions GmbH",
+            "location": "Berlin",
+            "start_date": "03/2022",
+            "end_date": "",
+            "current_position": true,
+            "description": "Verantwortung für Architektur und Weiterentwicklung einer cloudbasierten B2B-Plattform mit über 50.000 Nutzern.",
+            "achievements": [
+              "Leitung eines Teams aus 5 Entwicklern",
+              "Reduzierung der Deployment-Zeit um 40 % durch CI/CD-Automatisierung",
+              "Einführung von Observability-Standards (Monitoring & Tracing)"
+            ]
+          },
+          {
+            "position": "Softwareentwickler",
+            "company": "Digitalwerke AG",
+            "location": "Hamburg",
+            "start_date": "06/2019",
+            "end_date": "02/2022",
+            "current_position": false,
+            "description": "Entwicklung von Microservices und REST-APIs für E-Commerce-Anwendungen.",
+            "achievements": [
+              "Entwicklung interner Python-Anwendungen zur Prozessautomatisierung",
+              "Automatisierung manueller Prozesse im Rechnungswesen",
+              "Reduzierung der Bearbeitungszeit um 30 %"
+            ]
+          },
+          {
+            "position": "Junior Softwareentwickler",
+            "company": "Softwareschmiede Müller KG",
+            "location": "Kiel",
+            "start_date": "09/2017",
+            "end_date": "05/2019",
+            "current_position": false,
+            "description": "Wartung und Weiterentwicklung bestehender Java-Anwendungen im Bereich Logistik.",
+            "achievements": [
+              "Migration einer Legacy-Anwendung auf eine moderne Spring-Codebasis",
+              "Aufbau automatisierter Unit-Tests (Testabdeckung von 20 % auf 70 %)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ausbildung",
+      "title": "Ausbildung",
+      "data": {
+        "entries": [
+          {
+            "degree": "M.Sc. Informatik",
+            "institution": "Technische Universität Hamburg",
+            "location": "Hamburg",
+            "start_date": "10/2014",
+            "end_date": "05/2017",
+            "grade": "1,7",
+            "description": "Schwerpunkte: Verteilte Systeme, Maschinelles Lernen. Masterarbeit zu Lastverteilung in Cloud-Umgebungen."
+          },
+          {
+            "degree": "B.Sc. Informatik",
+            "institution": "Christian-Albrechts-Universität",
+            "location": "Kiel",
+            "start_date": "10/2011",
+            "end_date": "08/2014",
+            "grade": "2,0",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "kenntnisse",
+      "title": "Kenntnisse",
+      "data": {
+        "skills": [
+          { "name": "Python", "category": "Programmiersprachen", "level": "" },
+          { "name": "Java", "category": "Programmiersprachen", "level": "" },
+          { "name": "TypeScript", "category": "Programmiersprachen", "level": "" },
+          { "name": "SQL", "category": "Software", "level": "" },
+          { "name": "Docker", "category": "Tools", "level": "" },
+          { "name": "Kubernetes", "category": "Tools", "level": "" },
+          { "name": "Git", "category": "Tools", "level": "" },
+          { "name": "Linux", "category": "Tools", "level": "" },
+          { "name": "Scrum", "category": "Methoden", "level": "" },
+          { "name": "Projektmanagement", "category": "Methoden", "level": "" },
+          { "name": "Microsoft Office", "category": "Software", "level": "" }
+        ]
+      }
+    },
+    {
+      "type": "sprachen",
+      "title": "Sprachen",
+      "data": {
+        "languages": [
+          { "name": "Deutsch", "level": "Muttersprache" },
+          { "name": "Englisch", "level": "C1" },
+          { "name": "Französisch", "level": "B1" }
+        ]
+      }
+    },
+    {
+      "type": "zertifikate",
+      "title": "Zertifikate",
+      "data": {
+        "entries": [
+          {
+            "name": "AWS Certified Solutions Architect – Associate",
+            "issuer": "Amazon Web Services",
+            "year": "2024",
+            "description": "Nachweis fundierter Kenntnisse im Entwurf verteilter Systeme auf AWS.",
+            "file_path": ""
+          },
+          {
+            "name": "Professional Scrum Master I (PSM I)",
+            "issuer": "Scrum.org",
+            "year": "2023",
+            "description": "Zertifizierung für agile Produktentwicklung nach Scrum.",
+            "file_path": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "projekte",
+      "title": "Projekte",
+      "data": {
+        "entries": [
+          {
+            "name": "OpenRoute Optimizer",
+            "role": "Maintainer",
+            "period": "2023–heute",
+            "description": "Open-Source-Bibliothek zur Routenoptimierung für Logistikunternehmen.",
+            "technologies": ["Python", "PostGIS"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "interessen",
+      "title": "Interessen",
+      "data": {
+        "items": ["Radfahren", "Fotografie", "Open Source", "Schach"]
+      }
+    }
+  ]
+}

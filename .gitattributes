@@ -1,0 +1,14 @@
+# Zeilenenden: Text automatisch normalisieren, Skripte/Docs mit LF
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# Binärdateien nicht anfassen
+*.ttf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.ico binary
