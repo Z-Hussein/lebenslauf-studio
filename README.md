@@ -20,7 +20,7 @@ Erste Schritte, Anschreiben, Vorlagen, PDF-Export, Projekte, FAQ).
 - Eigene Abschnitte mit frei wählbarem Titel
 - Abschnitte hinzufügen, verschieben (Buttons oder Drag & Drop), duplizieren und löschen (Entf-Taste)
 - 13 Vorlagen: **Modern**, **Classic**, **Minimal**, **Professional**, **Creative**, **ZH Modern/Classic/Creative/Tech/Executive**, **Swiss**, **Nordic**, **Terminal**
-- Design-Einstellungen: Akzentfarbe, **Hintergrundfarbe**, Schriftart (8 Schriften), Schriftgröße, Zeilenabstand, Seitenränder, Kontakt-Kürzel, Zertifikats-Anhang
+- Design-Einstellungen: Akzentfarbe, **Hintergrundfarbe**, Schriftart (11 Schriften, inkl. Inter), Schriftgröße, Zeilenabstand, Seitenränder, Kontakt-Kürzel, Zertifikats-Anhang
 - **App-Farbschema:** Hell / Dunkel / System (Menü *Ansicht*); Fenstergröße und Panel-Aufteilung werden gespeichert
 - Live-Vorschau der A4-Seiten mit Seitennavigation und Zoom (Einpassen/+/−)
 - PDF-Export in A4 mit korrekten Umlauten, eingebetteten Schriftarten und automatischem Sonderzeichen-Fallback (keine □-Kästchen); Warnungen bei fehlenden Dateien/Zeichen im Export-Dialog

@@ -75,6 +75,7 @@ _FONT_ALIASES = {
     "Noto Sans": ({"regular": ["NotoSans-Regular.ttf"], "bold": ["NotoSans-Bold.ttf"], "italic": ["NotoSans-Italic.ttf"], "bolditalic": ["NotoSans-BoldItalic.ttf"]}, "Helvetica"),
     "Garamond": ({"regular": ["Garamond.ttf", "GARA.ttf", "EBGaramond-Regular.ttf"], "bold": ["Garamond-Bold.ttf", "GARABD.ttf"], "italic": ["Garamond-Italic.ttf", "GARAIT.ttf"], "bolditalic": ["Garamond-BoldItalic.ttf", "GARAIT.ttf"]}, "Times-Roman"),
     "JetBrains Mono": ({"regular": ["JetBrainsMono-Regular.ttf"], "bold": ["JetBrainsMono-Bold.ttf"], "italic": ["JetBrainsMono-Italic.ttf"], "bolditalic": ["JetBrainsMono-BoldItalic.ttf"]}, "Courier"),
+    "Inter": ({"regular": ["Inter-Regular.ttf"], "bold": ["Inter-Bold.ttf"], "italic": ["Inter-Italic.ttf"], "bolditalic": ["Inter-BoldItalic.ttf"]}, "Helvetica"),
     "Consolas": ({"regular": ["Consolas.ttf", "consola.ttf"], "bold": ["Consolas-Bold.ttf", "consolab.ttf"], "italic": ["Consolas-Italic.ttf", "consolai.ttf"], "bolditalic": ["consolaz.ttf"]}, "Courier"),
 }
 

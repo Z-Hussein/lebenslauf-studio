@@ -41,7 +41,7 @@ auf dunklen Text (Fenster-Chrome bleibt dunkel).
 
 ## Schriften
 
-10 Schriften eingebaut (Helvetica, Times, DejaVu Sans, Liberation Sans,
+11 Schriften eingebaut (Helvetica, **Inter**, Times, DejaVu Sans, Liberation Sans,
 Calibri, Segoe UI, Noto Sans, Garamond, **JetBrains Mono**, Consolas).
 Für ATS: Helvetica/Calibri (bewährter Standard). Eigene `.ttf` nach
 `assets/fonts/` legen → nach Neustart wählbar. Sonderzeichen

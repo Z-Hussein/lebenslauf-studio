@@ -310,7 +310,7 @@ class NewCustomSectionDialog(QDialog):
 class DesignSettingsDialog(QDialog):
     """Akzentfarbe, Schriftart, Schriftgröße, Ränder und Abstände."""
 
-    FONTS = ["Helvetica", "Times-Roman", "DejaVu Sans", "Liberation Sans", "Calibri", "Segoe UI", "Noto Sans", "Garamond", "JetBrains Mono", "Consolas"]
+    FONTS = ["Helvetica", "Inter", "Times-Roman", "DejaVu Sans", "Liberation Sans", "Calibri", "Segoe UI", "Noto Sans", "Garamond", "JetBrains Mono", "Consolas"]
 
     def __init__(self, parent: Optional[QWidget], settings: Dict[str, Any],
                  default_background: str = "#FFFFFF") -> None:

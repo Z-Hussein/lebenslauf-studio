@@ -57,7 +57,7 @@ Graue Einträge sind noch leer und erscheinen **nicht** im PDF.
 
 - Vorlage oben in der Sidebar wechseln (13 Stile, siehe [Vorlagen](templates.md)).
 - **🎨 Design-Einstellungen:** Akzentfarbe, Hintergrundfarbe, Schriftart
-  (10 Schriften), Größen, Abstände, Seitenränder, Kontakt-Kürzel,
+  (11 Schriften, inkl. Inter), Größen, Abstände, Seitenränder, Kontakt-Kürzel,
   Zertifikats-Anhang an/aus.
 - App-Farbschema (hell/dunkel) unter Menü *Ansicht* – unabhängig vom PDF.
 
