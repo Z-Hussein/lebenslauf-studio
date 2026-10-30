@@ -29,6 +29,8 @@ python -m venv .venv
 .venv\Scripts\activate.bat
 # Linux / macOS:
 source .venv/bin/activate
+# Linux-Cachy OS
+source .venv/bin/activate.fish
 
 # 4. Abhängigkeiten installieren
 pip install -r requirements.txt
