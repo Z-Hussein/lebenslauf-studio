@@ -38,6 +38,8 @@ python -m venv .venv
 
 # Linux/macOS
 source .venv/bin/activate
+# Linux-Cachy OS 
+source .venv/bin/activate.fish
 
 pip install -r requirements.txt
 ```
