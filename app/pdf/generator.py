@@ -903,7 +903,9 @@ class PDFBuilder:
                 return
             blocks: List[Any] = self._section_title(title)
             for it in entries:
-                head = f"<b>{escape_xml(it.title)}</b>"
+                # Make Titel bold and allow user-defined color via settings
+                section_color = self.resume.settings.get("ehrenamt_title_color", self.primary.hexval())
+                head = f'<b><font color="{section_color}">{escape_xml(it.title)}</font></b>'
                 if it.subtitle:
                     head += f" – {escape_xml(it.subtitle)}"
                 meta = " · ".join([x for x in (it.period,) if x])
@@ -1105,8 +1107,10 @@ class PDFBuilder:
             if not entries:
                 return
             for it in entries:
+                # Make Titel bold and allow user-defined color via settings for volunteer section
+                vol_color = self.resume.settings.get("volunteer_title_color", self.primary.hexval())
                 story.append(Paragraph(
-                    f"{self._accent('*')} <b>{escape_xml(it.title)}</b>",
+                    f"{self._accent('*')} <b><font color=\"{vol_color}\">{escape_xml(it.title)}</font></b>",
                     self.styles["body"],
                 ))
                 meta = " · ".join([x for x in (it.subtitle, it.period) if x])
@@ -1181,7 +1185,9 @@ class PDFBuilder:
 
     def _experience_block(self, e: ExperienceEntry) -> List[Any]:
         out: List[Any] = []
-        heading = f"<b>{escape_xml(e.position)}</b>"
+        # Make Position bold and allow user-defined color via settings
+        exp_color = self.resume.settings.get("experience_position_color", self.primary.hexval())
+        heading = f'<b><font color="{exp_color}">{escape_xml(e.position)}</font></b>'
         if self.style.date_style == "inline":
             meta_bits = [x for x in (e.company, e.location, e.period_text()) if x]
             if meta_bits:
@@ -1215,7 +1221,9 @@ class PDFBuilder:
 
     def _education_block(self, e: EducationEntry) -> List[Any]:
         out: List[Any] = []
-        heading = f"<b>{escape_xml(e.degree)}</b>"
+        # Make Abschluss (degree) bold and allow user-defined color via settings
+        edu_color = self.resume.settings.get("education_degree_color", self.primary.hexval())
+        heading = f'<b><font color="{edu_color}">{escape_xml(e.degree)}</font></b>'
         out.append(Paragraph(heading, self.styles["entry_head"]))
         meta_bits = [x for x in (e.institution, e.location) if x]
         grade_bit = f"Note: {e.grade}" if e.grade else ""
@@ -1288,7 +1296,9 @@ class PDFBuilder:
         if uncategorized:
             out.append(Paragraph(" · ".join(uncategorized), self.styles["body"]))
         for cat, names in categorized.items():
-            out.append(Paragraph(f"<b>{escape_xml(cat)}:</b> " + " · ".join(names), self.styles["body"]))
+            # Make category bold and allow user-defined color via settings
+            cat_color = self.resume.settings.get("skills_category_color", self.primary.hexval())
+            out.append(Paragraph(f'<b><font color="{cat_color}">{escape_xml(cat)}</font></b>: ' + " · ".join(names), self.styles["body"]))
         return out
 
 
