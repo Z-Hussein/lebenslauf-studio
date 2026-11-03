@@ -15,12 +15,14 @@ from app.ui.main_window import MainWindow
 
 
 def main() -> int:
+    print("Lebenslauf Studio startet …", flush=True)
     # High-DPI-Rendering aktivieren (Windows)
     QApplication.setHighDpiScaleFactorRoundingPolicy(
         Qt.HighDpiScaleFactorRoundingPolicy.PassThrough
     )
 
     app = QApplication(sys.argv)
+    print("Fenster wird geöffnet …", flush=True)
     app.setApplicationName("Lebenslauf Studio")
     app.setOrganizationName("LebenslaufStudio")
     app.setApplicationDisplayName("Lebenslauf Studio")
